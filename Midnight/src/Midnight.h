@@ -3,6 +3,7 @@
 // For use by Midnight applications.
 
 #include "Midnight/Application.h"
+#include "Midnight/Log.h"
 
 
 //----Entry Point------------------
