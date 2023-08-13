@@ -12,6 +12,7 @@
 #include <unordered_map>
 #include <unordered_set>
 
+#include "Midnight/Log.h"
 
 #if MN_PLATFORM_WINDOWS
 	#include <Windows.h>
