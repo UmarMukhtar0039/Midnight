@@ -2,8 +2,6 @@
 
 #include "Midnight/Events/Event.h"
 
-#include <sstream>
-
 namespace Midnight {
 
 	class MIDNIGHT_API WindowResizeEvent : public Event

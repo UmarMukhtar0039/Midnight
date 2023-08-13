@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace Midnight {
 
 	class MIDNIGHT_API MouseMovedEvent : public Event

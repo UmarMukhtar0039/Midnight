@@ -2,8 +2,6 @@
 
 #include "KeyEvent.h"
 
-#include <sstream>
-
 namespace Midnight {
 
 	class MIDNIGHT_API KeyEvent : public Event

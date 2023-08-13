@@ -18,6 +18,9 @@ project "Midnight"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "mnpch.h"
+	pchsource "Midnight/src/mnpch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",

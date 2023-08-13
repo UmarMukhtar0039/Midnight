@@ -34,6 +34,7 @@
     <ClInclude Include="src\Midnight\Log.h">
       <Filter>Midnight</Filter>
     </ClInclude>
+    <ClInclude Include="src\mnpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Midnight\Application.cpp">
@@ -42,5 +43,6 @@
     <ClCompile Include="src\Midnight\Log.cpp">
       <Filter>Midnight</Filter>
     </ClCompile>
+    <ClCompile Include="src\mnpch.cpp" />
   </ItemGroup>
 </Project>
