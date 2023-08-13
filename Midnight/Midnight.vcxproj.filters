@@ -4,6 +4,9 @@
     <Filter Include="Midnight">
       <UniqueIdentifier>{F9FA680F-E5C7-C31A-0EE1-B1C2FA0CF9A8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Midnight\Events">
+      <UniqueIdentifier>{BD74C98B-2900-3750-3211-BA449E1B9350}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Midnight.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Midnight\EntryPoint.h">
       <Filter>Midnight</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Midnight\Events\ApplicationEvent.h">
+      <Filter>Midnight\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Midnight\Events\Event.h">
+      <Filter>Midnight\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Midnight\Events\KeyEvent.h">
+      <Filter>Midnight\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Midnight\Events\MouseEvent.h">
+      <Filter>Midnight\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Midnight\Log.h">
       <Filter>Midnight</Filter>

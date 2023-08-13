@@ -9,3 +9,5 @@
 #else
 	#error Midnight Engine currently only support Windows platform.
 #endif // 
+
+#define BIT(x) (1 << x)

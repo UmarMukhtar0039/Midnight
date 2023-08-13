@@ -2,8 +2,9 @@
 
 #include<memory>
 
-#include "Core.h"
+#include "Midnight/Core.h"
 #include "spdlog/spdlog.h"
+#include "spdlog/fmt/ostr.h"
 
 namespace Midnight {
 	class MIDNIGHT_API Log
@@ -25,12 +26,12 @@ namespace Midnight {
 #define MN_CORE_WARN(...)		::Midnight::Log::GetCoreLogger()->warn(__VA_ARGS__)
 #define MN_CORE_INFO(...)		::Midnight::Log::GetCoreLogger()->info(__VA_ARGS__)
 #define MN_CORE_TRACE(...)		::Midnight::Log::GetCoreLogger()->trace(__VA_ARGS__)
-#define MN_CORE_FATAL(...)		::Midnight::Log::GetCoreLogger()->fatal(__VA_ARGS__)
+//#define MN_CORE_FATAL(...)		::Midnight::Log::GetCoreLogger()->fatal(__VA_ARGS__)
 
 // Client log macros
 #define MN_ERROR(...)			::Midnight::Log::GetClientLogger()->error(__VA_ARGS__)
 #define MN_WARN(...)			::Midnight::Log::GetClientLogger()->warn(__VA_ARGS__)
 #define MN_INFO(...)			::Midnight::Log::GetClientLogger()->info(__VA_ARGS__)
 #define MN_TRACE(...)			::Midnight::Log::GetClientLogger()->trace(__VA_ARGS__)
-#define MN_FATAL(...)			::Midnight::Log::GetClientLogger()->fatal(__VA_ARGS__)
+//#define MN_FATAL(...)			::Midnight::Log::GetClientLogger()->fatal(__VA_ARGS__)
 
