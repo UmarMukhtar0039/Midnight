@@ -7,7 +7,6 @@ extern Midnight::Application* Midnight::CreateApplication();
 int main(int argc, char** argv)
 {
 	Midnight::Log::Init();
-	MN_CORE_WARN("Initialized Log");
 	
 	auto app = Midnight::CreateApplication();
 

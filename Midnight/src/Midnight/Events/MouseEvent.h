@@ -44,10 +44,10 @@ namespace Midnight {
 		}
 
 		EVENT_CLASS_TYPE(MouseScrolled)
-			EVENT_CLASS_CATEGORY(EventCategoryMouse | EventCategoryInput)
+		EVENT_CLASS_CATEGORY(EventCategoryMouse | EventCategoryInput)
 
 	private:
-		float m_MouseX, m_MouseY;
+		float m_XOffset, m_YOffset;
 	};
 
 	class MIDNIGHT_API MouseButtonEvent : public Event
