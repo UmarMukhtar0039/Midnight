@@ -64,14 +64,17 @@ project "Midnight"
 
 		filter "configurations:Debug"
 			defines "MN_DEBUG"
+			buildoptions "/MDd"
 			symbols "On"
 
 		filter "configurations:Release"
 			defines "MN_RELEASE"
+			buildoptions "/MDd"
 			optimize "On"
 
 		filter "configurations:Dist"
 			defines "MN_DIST"
+			buildoptions "/MDd"
 			optimize "On"
 
 project "Sandbox"
@@ -111,13 +114,16 @@ project "Sandbox"
 	
 		filter "configurations:Debug"
 			defines "MN_DEBUG"
+			buildoptions "/MDd"
 			symbols "On"
 
 		filter "configurations:Release"
 			defines "MN_RELEASE"
+			buildoptions "/MDd"
 			optimize "On"
 
 		filter "configurations:Dist"
 			defines "MN_DIST"
+			buildoptions "/MDd"
 			optimize "On"
 

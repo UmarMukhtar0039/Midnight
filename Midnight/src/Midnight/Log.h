@@ -33,3 +33,4 @@ namespace Midnight {
 #define MN_TRACE(...)			::Midnight::Log::GetClientLogger()->trace(__VA_ARGS__)
 //#define MN_FATAL(...)			::Midnight::Log::GetClientLogger()->fatal(__VA_ARGS__)
 
+

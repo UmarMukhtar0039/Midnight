@@ -37,6 +37,12 @@
     <ClInclude Include="src\Midnight\Events\MouseEvent.h">
       <Filter>Midnight\Events</Filter>
     </ClInclude>
+    <ClInclude Include="src\Midnight\Layer.h">
+      <Filter>Midnight</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Midnight\LayerStack.h">
+      <Filter>Midnight</Filter>
+    </ClInclude>
     <ClInclude Include="src\Midnight\Log.h">
       <Filter>Midnight</Filter>
     </ClInclude>
@@ -50,6 +56,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Midnight\Application.cpp">
+      <Filter>Midnight</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Midnight\Layer.cpp">
+      <Filter>Midnight</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Midnight\LayerStack.cpp">
       <Filter>Midnight</Filter>
     </ClCompile>
     <ClCompile Include="src\Midnight\Log.cpp">

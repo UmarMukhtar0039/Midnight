@@ -1,7 +1,7 @@
 #pragma once
 
-#include "Core.h"
 #include "mnpch.h"
+#include "Midnight/Core.h"
 
 namespace Midnight
 {
@@ -45,6 +45,8 @@ namespace Midnight
 		{
 			return GetCategoryFlags() & category;
 		}
+
+		inline bool IsHandled() { return m_Handled; }
 
 	protected:
 		bool m_Handled = false;

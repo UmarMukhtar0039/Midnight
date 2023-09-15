@@ -92,8 +92,7 @@ namespace Midnight {
 			ss << "MouseButtonReleasedEvent: " << m_Button;
 			return ss.str();
 		}
-
-		void Print() { std::cout << "DLSKFJdslkfj"; }
+		
 		EVENT_CLASS_TYPE(MouseButtonReleased)
 	};
 }
